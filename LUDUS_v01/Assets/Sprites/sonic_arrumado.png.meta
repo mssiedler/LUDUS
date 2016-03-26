@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 4798d3313f3ca4cef9e0cd92855152e8
+timeCreated: 1441307449
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sonic_arrumado_0
+    21300002: sonic_arrumado_1
+    21300004: sonic_arrumado_2
+    21300006: sonic_arrumado_3
+    21300008: sonic_arrumado_4
+    21300010: sonic_arrumado_5
+    21300012: sonic_arrumado_6
+    21300014: sonic_arrumado_7
+    21300016: sonic_arrumado_8
+    21300018: sonic_arrumado_9
+    21300020: sonic_arrumado_10
+    21300022: sonic_arrumado_11
+    21300024: sonic_arrumado_12
+    21300026: sonic_arrumado_13
+    21300028: sonic_arrumado_14
+    21300030: sonic_arrumado_15
+    21300032: sonic_arrumado_16
+    21300034: sonic_arrumado_17
+    21300036: sonic_arrumado_18
+    21300038: sonic_arrumado_19
+    21300040: sonic_arrumado_20
+    21300042: sonic_arrumado_21
+    21300044: sonic_arrumado_22
+    21300046: sonic_arrumado_23
+    21300048: sonic_arrumado_24
+    21300050: sonic_arrumado_25
+    21300052: sonic_arrumado_26
+    21300054: sonic_arrumado_27
+    21300056: sonic_arrumado_28
+    21300058: sonic_arrumado_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sonic_arrumado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 970
+        width: 84
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 970
+        width: 91
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 970
+        width: 99
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 970
+        width: 90
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 970
+        width: 85
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_5
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 970
+        width: 84
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_6
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 970
+        width: 90
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 970
+        width: 98
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_8
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 970
+        width: 89
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 859
+        width: 59
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 859
+        width: 61
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 858
+        width: 59
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 859
+        width: 61
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 715
+        width: 78
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 715
+        width: 84
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 715
+        width: 83
+        height: 133
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_16
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 715
+        width: 79
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_17
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 715
+        width: 79
+        height: 129
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 104
+        height: 117
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 508
+        width: 104
+        height: 117
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 513
+        width: 104
+        height: 113
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 97
+        height: 114
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 386
+        width: 98
+        height: 114
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 90
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 260
+        width: 90
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 129
+        width: 79
+        height: 141
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 105
+        height: 116
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 86
+        height: 102
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 129
+        width: 91
+        height: 127
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sonic_arrumado_29
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 128
+        width: 40
+        height: 20
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

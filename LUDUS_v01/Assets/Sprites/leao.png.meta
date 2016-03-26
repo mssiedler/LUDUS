@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 77806c707ec49404a972ee748dc3fde2
+timeCreated: 1459012274
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: leao_0
+    21300002: leao_1
+    21300004: leao_2
+    21300006: leao_3
+    21300008: leao_4
+    21300010: leao_5
+    21300012: leao_6
+    21300014: leao_7
+    21300016: leao_8
+    21300018: leao_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: leao_0
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1072
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_1
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1072
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 821
+        width: 267
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 819
+        width: 251
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 459
+        width: 311
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 459
+        width: 324
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 88
+        width: 343
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 231
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 46
+        width: 365
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leao_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 225
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
