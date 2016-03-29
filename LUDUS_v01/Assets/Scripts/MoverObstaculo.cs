@@ -13,7 +13,8 @@ public class MoverObstaculo : MonoBehaviour {
 	public int posicao;
 	public int valor;
 	private bool parado;
-	public int opcao;
+	private string opcao;
+
 
 	/* tipo de movimento que deve ser executando no obstáculo
 	 * pode ser:
@@ -29,12 +30,32 @@ public class MoverObstaculo : MonoBehaviour {
 
 	//ADICIONADO NA PONTUAÇÃO
 	public GameObject jogador;
-
+	private Pergunta perg;
 
 	void Start () {
 		velocidade = -0.08f;
 		//ADICIONADO NA PONTUAÇÃO
 		jogador = GameObject.Find ("Jogador") as GameObject;
+		perg = FindObjectOfType (typeof(Pergunta)) as Pergunta;
+		switch (posicao) {
+			case 1:
+				this.valor = perg.perguntas[perg.idPergunta].respA;
+				opcao = "A";
+				break;
+			case 2:
+				this.valor = perg.perguntas[perg.idPergunta].respB;
+				opcao = "B";
+				break;
+			case 3:
+				this.valor = perg.perguntas[perg.idPergunta].respC;
+				opcao = "C";
+				break;
+
+			default:
+				break;
+		}
+
+
 
 		distancia = 1.2f;
 		distanciaObj = 3.1f;
@@ -42,7 +63,7 @@ public class MoverObstaculo : MonoBehaviour {
 		tipoMovimento = "I";
 
 		foreach (Text item2 in transform.gameObject.GetComponentsInChildren<Text>()) {
-			item2.text = posicao.ToString();
+			item2.text = valor.ToString();
 			
 		}
 	}
@@ -75,7 +96,7 @@ public class MoverObstaculo : MonoBehaviour {
 		if (Input.GetMouseButtonDown (0)) 
 		{
 			//verifica se o valor é o certo(no caso valor fixo 2)
-			if(this.valor == 2)
+			if(perg.verificaResposta(opcao))
 			{
 				moverObstaculos();
 			}
@@ -94,7 +115,7 @@ public class MoverObstaculo : MonoBehaviour {
 		foreach (GameObject item in obstaculos) {
 			GameObject temporario = item;
 			mo = temporario.GetComponent<MoverObstaculo>();
-			if(mo.valor == 2)
+			if(mo.valor == this.valor)
 				mo.tipoMovimento = "E";
 			else
 				mo.tipoMovimento = "D";

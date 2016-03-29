@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\IniciarJogo.cs" />
      <Compile Include="Assets\Scripts\MoverCenario.cs" />
      <Compile Include="Assets\Scripts\MoverObstaculo.cs" />
+     <Compile Include="Assets\Scripts\Pergunta.cs" />
      <Compile Include="Assets\Scripts\Teste.cs" />
      <Compile Include="Assets\Scripts\TesteInicio.cs" />
  <Reference Include="UnityEngine.Analytics">
