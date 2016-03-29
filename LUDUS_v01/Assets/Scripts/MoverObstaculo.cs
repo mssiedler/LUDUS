@@ -48,7 +48,7 @@ public class MoverObstaculo : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (!parado) {
 			switch (tipoMovimento) {
 			case "I":
@@ -107,6 +107,7 @@ public class MoverObstaculo : MonoBehaviour {
 
 	private void andarInicial()
 	{
+
 
 		eixoX = transform.position.x; //posico atual do objeto
 		eixoX += (velocidade + (Time.deltaTime));

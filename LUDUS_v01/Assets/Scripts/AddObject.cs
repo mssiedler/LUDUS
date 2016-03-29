@@ -15,6 +15,9 @@ public class AddObject : MonoBehaviour {
 	private Text     texto;
 
 	private Configuracao conf;
+
+
+	private bool trigger;
 	// Use this for initialization
 	void Start () {
 
@@ -26,30 +29,33 @@ public class AddObject : MonoBehaviour {
 		
 
 		SpriteRenderer sr;
+		trigger = true;
 		for (int i = 1; i < 4; i++) {
-			GameObject temporario = Instantiate(obstaculoCompleto) as GameObject;
-			sr = temporario.GetComponent<SpriteRenderer>();
-			sr.sprite = conf.obstaculo;
-			//sr.sprite
-	
-		MoverObstaculo  mo = temporario.GetComponent<MoverObstaculo >();
-		mo.posicao = i;
-		mo.valor = i;
-		temporario.transform.position = 
-			new Vector3 (transform.position.x, posicao, transform.position.z);
+
+				GameObject temporario = Instantiate(obstaculoCompleto) as GameObject;
+				sr = temporario.GetComponent<SpriteRenderer>();
+				sr.sprite = conf.obstaculo;
+				//sr.sprite
+		
+				MoverObstaculo  mo = temporario.GetComponent<MoverObstaculo>();
+				mo.posicao = i;
+				mo.valor = i;
+				temporario.transform.position = 
+				new Vector3 (transform.position.x, posicao, transform.position.z);
+
+
 		}
 
 	}
+
+
 	
 	// Update is called once per frame
 	void Update () {
 
-			
-				
-
-			
-
 	}
+
+
 
 
 }
