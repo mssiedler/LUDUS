@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-
+//GIT
 public class Pergunta : MonoBehaviour {
 	public Text pergunta;
 
@@ -16,13 +16,14 @@ public class Pergunta : MonoBehaviour {
 	public List<Pergunta> perguntas;
 	public int nivel;
 
-	public Pergunta(string quest,int rA, int rB, int rC, int correta)
+	public Pergunta(string quest,int rA, int rB, int rC, int correta, int niv)
 	{
 		questoes = quest;
 		respA = rA;
 		respB = rB;
 		respC = rC;
 		certa = correta;
+		nivel = niv;
 	}
 
 
@@ -31,17 +32,34 @@ public class Pergunta : MonoBehaviour {
 	void Start () {
 		perguntas = new List<Pergunta>();
 		idPergunta = 0;
-		perguntas.Add(new Pergunta("5+4=?",9,1,7,9));
-		perguntas.Add(new Pergunta("3+2=?",4,1,5,5));
-		perguntas.Add(new Pergunta("1+1=?",2,0,4,2));
-
+		perguntas.Add(new Pergunta("5+4=?",1,9,7,9,1));
+		perguntas.Add(new Pergunta("3+2=?",4,1,5,5,1));
+		perguntas.Add(new Pergunta("1+1=?",2,0,4,2,1));
+		perguntas.Add(new Pergunta("5+4=?",1,9,7,9,2));
+		perguntas.Add(new Pergunta("3+2=?",4,1,5,5,2));
+		perguntas.Add(new Pergunta("1+1=?",2,0,4,2,2));
 
 	}
 
+	public void trocaOperacao()
+	{
+
+			nivel += 1;
+			idPergunta = 0;
+
+	}
 
 	void proximaPergunta()
 	{
-		idPergunta += 1;
+		if (this.idPergunta == 3) 
+		{
+			trocaOperacao();
+		}
+		else
+		{
+			idPergunta += 1;
+
+		}
 
 
 	}

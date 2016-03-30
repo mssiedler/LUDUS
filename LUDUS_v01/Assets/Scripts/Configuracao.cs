@@ -13,14 +13,14 @@ public class Configuracao : MonoBehaviour {
 		string obstaculoPreferecial = PlayerPrefs.GetString ("obstaculo");
 		//gambiarra quando eu acessar direto as fase
 		if (obstaculoPreferecial == null) {
-			this.obstaculo = Resources.Load <Sprite> ("Sprites/obstaculopreto");
+			this.obstaculo = Resources.Load <Sprite> ("Sprites/Galinha");
 		}
 		if (obstaculoPreferecial.Equals ("Espinho")) {
 			this.obstaculo = Resources.Load <Sprite> ("Sprites/obstaculo");
 
 				
 		} else {
-			this.obstaculo = Resources.Load <Sprite> ("Sprites/obstaculopreto");
+			this.obstaculo = Resources.Load <Sprite> ("Sprites/Galinha");
 		}
 	
 	}
